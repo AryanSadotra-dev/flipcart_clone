@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+}
+
+.top {
+  margin-bottom: 12px;
+}
+
+.logo,
+.travel,
+.location {
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.logo {
+  display: inline-block;
+  min-width: 100px;
+  background-color: #ffe500;
+  color: #212121;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+}
+.travel {
+  display: inline-block;
+  background-color: rgba(72, 44, 44, 0.18);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}
+.location {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #000000;
+  margin-left: 80%;
+}
+.search {
+  width: 84%;
+}
+.search input {
+  width: 100%;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.middle span {
+  display: inline-block;
+  min-width: 70px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  font-size: 13px;
+}
+.middle span:hover {
+  background-color: rgba(255, 255, 255, 0.26);
+}
+.bottom {
+  margin-top: 12px;
+}
+
+.box {
+  display: inline-block;
+  width: 36px;
+  height: 35px;
+  background-color: rgb(197, 33, 156);
+  padding: 10px 14px;
+  margin-left: 2px;
+}
+#hero img{
+   display: inline-block;
+   width:400px;
+   border-radius: 8px;
+}
+.img{
+    display: inline-block;
+    margin: 10px;
+    
+}
+#hero1 img{
+   display: inline-block;
+   width:400px;
+   border-radius: 8px;
+}
+.img1{
+    display: inline-block;
+    margin: 10px;
+    
+}
+.footer {
+  background-color: #212121;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer1{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15%;
+
+}
